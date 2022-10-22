@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomCoffee.Tests", "RandomCoffee.Tests\RandomCoffee.Tests.csproj", "{547134C8-0E38-4677-BAA6-42DFE2B155DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomCoffee.Console", "RandomCoffee.Console\RandomCoffee.Console.csproj", "{25863B0D-1B64-48A6-87E9-F4B7E287EDCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomCoffee.Console", "RandomCoffee.Console\RandomCoffee.Console.csproj", "{25863B0D-1B64-48A6-87E9-F4B7E287EDCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomCoffee.Core", "RandomCoffee.Core\RandomCoffee.Core.csproj", "{02B61A60-5A43-43A7-BCCC-33E95C69FCC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomCoffee.Core", "RandomCoffee.Core\RandomCoffee.Core.csproj", "{02B61A60-5A43-43A7-BCCC-33E95C69FCC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomCoffee.Mattermost", "RandomCoffee.Mattermost\RandomCoffee.Mattermost.csproj", "{59EC8F52-26A2-4995-8EFB-8D34AB2B9520}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomCoffee.EntityFramework", "RandomCoffee.EntityFramework\RandomCoffee.EntityFramework.csproj", "{0C8427B1-7D5C-4798-B237-5EAB67BBF9BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomCoffee.Tests", "RandomCoffee.Tests\RandomCoffee.Tests.csproj", "{FE2677BA-1461-4057-BBBE-7BD77FB138B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{547134C8-0E38-4677-BAA6-42DFE2B155DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{547134C8-0E38-4677-BAA6-42DFE2B155DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{547134C8-0E38-4677-BAA6-42DFE2B155DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{547134C8-0E38-4677-BAA6-42DFE2B155DB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{25863B0D-1B64-48A6-87E9-F4B7E287EDCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{25863B0D-1B64-48A6-87E9-F4B7E287EDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25863B0D-1B64-48A6-87E9-F4B7E287EDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +27,18 @@ Global
 		{02B61A60-5A43-43A7-BCCC-33E95C69FCC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02B61A60-5A43-43A7-BCCC-33E95C69FCC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02B61A60-5A43-43A7-BCCC-33E95C69FCC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59EC8F52-26A2-4995-8EFB-8D34AB2B9520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59EC8F52-26A2-4995-8EFB-8D34AB2B9520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59EC8F52-26A2-4995-8EFB-8D34AB2B9520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59EC8F52-26A2-4995-8EFB-8D34AB2B9520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C8427B1-7D5C-4798-B237-5EAB67BBF9BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C8427B1-7D5C-4798-B237-5EAB67BBF9BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C8427B1-7D5C-4798-B237-5EAB67BBF9BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C8427B1-7D5C-4798-B237-5EAB67BBF9BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE2677BA-1461-4057-BBBE-7BD77FB138B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2677BA-1461-4057-BBBE-7BD77FB138B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2677BA-1461-4057-BBBE-7BD77FB138B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2677BA-1461-4057-BBBE-7BD77FB138B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

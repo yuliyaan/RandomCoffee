@@ -8,8 +8,4 @@
     <PackageReference Include="Matterhook.NET.MatterhookClient" Version="1.5.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Services" />
-  </ItemGroup>
-
 </Project>
