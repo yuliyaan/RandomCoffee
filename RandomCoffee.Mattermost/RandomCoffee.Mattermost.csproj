@@ -8,4 +8,8 @@
     <ProjectReference Include="..\RandomCoffee.Core\RandomCoffee.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
 </Project>
