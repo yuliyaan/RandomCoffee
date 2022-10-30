@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 namespace RandomCoffee.Core.Abstractions
 {
     /// <summary>
-    /// Connector for Random Coffee to a specific messenger 
+    /// Connector to a specific messenger 
     /// </summary>
     public interface IMessengerGateway
     {
